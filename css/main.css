@@ -7,6 +7,7 @@ header {
 }
 
 /* navigation */
+
 .nav {
     display: flex;
     justify-content: flex-end;
@@ -40,7 +41,7 @@ header {
     top: -13px;
     left: 50%;
     transform: translate(-50%, 0);
-    background: url(//radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors//circle_top.svg) no-repeat 50%/cover;
+    background: url(../images/circle_top.svg) no-repeat 50%/cover;
     transition: all .3s ease;
 }
 
@@ -54,7 +55,7 @@ header {
     top: 22px;
     left: 50%;
     transform: translate(-50%, 0) rotate(180deg);
-    background: url(//radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors//circle_top.svg) no-repeat 50%/cover;
+    background: url(../images/circle_top.svg) no-repeat 50%/cover;
     transition: all .3s ease;
 }
 
@@ -435,7 +436,7 @@ header .container {
     position: absolute;
     width: 30px;
     height: 30px;
-    background: url(//radicalwebdesign.co.uk/wp-content/themes/radicalwebdesign/assets/images/vectors//check.svg) no-repeat center / 15px;
+    background: url(../images/check.svg) no-repeat center / 15px;
     display: block;
     opacity: 0;
     transition: all .5s ease;
